@@ -33,9 +33,8 @@ Back to [Table-of-Contents](#🚀-table-of-contents)
 
 
 ## ⭐ Features
-  * User Login
-  * Search Books
-  * Save Books
+  * Component Testing on Quiz
+  * End-to-End testing on Application
 
 
 Back to [Table-of-Contents](#🚀-table-of-contents)
