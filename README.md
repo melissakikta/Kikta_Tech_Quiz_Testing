@@ -33,8 +33,21 @@ Back to [Table-of-Contents](#🚀-table-of-contents)
 
 
 ## ⭐ Features
-  * Component Testing on Quiz
-  * End-to-End testing on Application
+<strong>Component Testing</strong>
+1. Initial State/Start Screen
+2. Loading State
+3. Quiz in Progress
+4. Quiz Completion 
+5. Error/Fallback
+
+<strong>End-to-End Testing</strong>
+1. Navigation and Page Load
+2. Starting Quiz
+3. Question Display and Answer Selection
+4. Quiz Progression
+5. Quiz Completion
+6. Network Conditions/API Responses
+7. User Feedbacl and Visual Indicators
 
 
 Back to [Table-of-Contents](#🚀-table-of-contents)

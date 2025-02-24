@@ -1,7 +1,7 @@
 //Cypress test for the Quiz component
 //Test checks if the Quiz component is rendered correctly
 
-import React from "react";
+//import React from "react";
 import { mount } from 'cypress/react18';
 import Quiz from "../../client/src/components/Quiz";
 import * as questionApi from '../../client/src/services/questionApi';
@@ -62,15 +62,15 @@ describe('<Quiz /> Component', () => {
 
     //simulate clicking the correct answer
     cy.get('button')
-      .contains('2') //second answer button
+      .contains('4') //second answer button
       .click();
 
-      //2 mock questions, so the quiz should now be complete
-      cy.get('h2').contains('Quiz Complete').should('exist');
+    //2 mock questions, so the quiz should now be complete
+    cy.get('h2').contains('Quiz Complete').should('exist');
 
-      cy.get('alert')
-      .contains(`Your score is 2/${mockQuestions.length}`)
-      .should('exist');
+    cy.get('alert')
+    .contains(`Your score is 2/${mockQuestions.length}`)
+    .should('exist');
   });
 
   it('restarts the quiz when the "Take New Quiz" button is clicked', () => {
