@@ -5,7 +5,7 @@ This app is a fully functioning Tech Quiz application with Cypress based testing
 ## 📚 Description
 The additions to the fully functioning Tech Quiz created in this application center on developing both component and end-to-end testing. 
 
-[Video](Video link) 
+[Video](https://drive.google.com/file/d/1eHjnYLo_4qrS3korZQ-QzGSV-fYkbYR_/view?usp=sharing) 
 
 ## 🚀 Table of Contents
   * [Usage](#📝-Usage)
@@ -24,10 +24,14 @@ Here are screenshots of the code testing
 ![Navigation](./assets/images/files.png)
 
 
-<u><strong>Passed Tests</strong></u>
+<u><strong>Passed Tests Component</strong></u>
 
-![Navigation](./assets/images/passed.png)
+![Navigation](./assets/images/component.png)
 
+
+<u><strong>Passed Tests E2E</strong></u>
+
+![Navigation](./assets/images/e2e.png)
 
 Back to [Table-of-Contents](#🚀-table-of-contents)
 
@@ -35,19 +39,14 @@ Back to [Table-of-Contents](#🚀-table-of-contents)
 ## ⭐ Features
 <strong>Component Testing</strong>
 1. Initial State/Start Screen
-2. Loading State
 3. Quiz in Progress
 4. Quiz Completion 
-5. Error/Fallback
 
 <strong>End-to-End Testing</strong>
 1. Navigation and Page Load
 2. Starting Quiz
 3. Question Display and Answer Selection
-4. Quiz Progression
 5. Quiz Completion
-6. Network Conditions/API Responses
-7. User Feedbacl and Visual Indicators
 
 
 Back to [Table-of-Contents](#🚀-table-of-contents)
